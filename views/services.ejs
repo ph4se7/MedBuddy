@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <!--Meta Data-->
-    <%- include('partial/title.ejs'); %> 
-
-    <% if (data.NODE_ENV == 'production') { %>
-      <!-- Production Stylesheets -->
-      <link rel="stylesheet" href="assets/production/css/services.min.css">
+    <%- include('partial/title.ejs'); %> <% if (data.NODE_ENV == 'production') {
+    %>
+    <!-- Production Stylesheets -->
+    <link rel="stylesheet" href="assets/production/css/services.min.css" />
 
     <% }else { %>
-      <!-- Development Stylesheets -->
-      <link rel="stylesheet" href="assets/lib/css/bootstrap.min.css">
-      <link rel="stylesheet" href="assets/lib/css/fontawesome.min.css">
-      <link rel="stylesheet" href="assets/lib/css/responsive.css">
-      <link rel="stylesheet" href="assets/lib/css/select2.min.css">
-      <link rel="stylesheet" href="assets/lib/css/spacing.css">
-      <link rel="stylesheet" href="assets/lib/css/style.css">
-      <link rel="stylesheet" href="assets/lib/css/owl.carousel.min.css">
-      <link rel="stylesheet" href="assets/lib/css/bootstrap-datepicker.min.css">
-      <link rel="stylesheet" href="assets/lib/css/magnific-popup.css">
-      <link rel="stylesheet" href="assets/css/header.css">
+    <!-- Development Stylesheets -->
+    <link rel="stylesheet" href="assets/lib/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/lib/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/lib/css/responsive.css" />
+    <link rel="stylesheet" href="assets/lib/css/select2.min.css" />
+    <link rel="stylesheet" href="assets/lib/css/spacing.css" />
+    <link rel="stylesheet" href="assets/lib/css/style.css" />
+    <link rel="stylesheet" href="assets/lib/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/lib/css/bootstrap-datepicker.min.css" />
+    <link rel="stylesheet" href="assets/lib/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
 
     <% } %>
-
   </head>
 
   <body onLoad="typeWriter()">
@@ -37,15 +34,28 @@
           <div class="col-lg-4 col-md-6">
             <div class="services-item effect-item">
               <a href="/view2" class="image-effect">
-                <div class="services-photo" style="background-image: url(assets/images/newborn.JPEG)"></div>
+                <div
+                  class="services-photo"
+                  style="background-image: url(assets/images/newborn.JPEG)"
+                ></div>
               </a>
               <div class="services-text">
                 <h3><a href="/view2">Newborn Care</a></h3>
                 <p>
-                  Lorem ipsum dolor sit amet, an labores explicari qui, eu nostrum copiosae argum entum has. Latine
-                  propriae quo no unum. </p>
+                  High-quality universal newborn health care is the right of
+                  every newborn everywhere. Babies have the right to be
+                  protected from injury and infection, to breathe normally, to
+                  be warm and to be fed. All newborns should have access to
+                  essential newborn care, which is the critical care for all
+                  babies in the first days after birth. Essential newborn care
+                  involves immediate care at the time of birth, and essential
+                  care during the entire newborn period. It is needed both in
+                  the health facility and at home.
+                </p>
                 <div class="button-bn">
-                  <a href="/view2">Read More <i class="fa fa-chevron-circle-right"></i></a>
+                  <a href="/view2"
+                    >Read More <i class="fa fa-chevron-circle-right"></i
+                  ></a>
                 </div>
               </div>
             </div>
@@ -53,15 +63,22 @@
           <div class="col-lg-4 col-md-6">
             <div class="services-item effect-item">
               <a href="/view2" class="image-effect">
-                <div class="services-photo" style="background-image: url(assets/images/mothercare.JPEG)"></div>
+                <div
+                  class="services-photo"
+                  style="background-image: url(assets/images/mothercare.JPEG)"
+                ></div>
               </a>
               <div class="services-text">
                 <h3><a href="/view2">Mother Care</a></h3>
                 <p>
-                  Lorem ipsum dolor sit amet, an labores explicari qui, eu nostrum copiosae argum entum has. Latine
-                  propriae quo no unum. </p>
+                  With its legacy of over 14 years in the health sector, Mother
+                  Care health center is acknowledged for its trust and
+                  discipline in facilitating its health services.
+                </p>
                 <div class="button-bn">
-                  <a href="/view2">Read More <i class="fa fa-chevron-circle-right"></i></a>
+                  <a href="/view2"
+                    >Read More <i class="fa fa-chevron-circle-right"></i
+                  ></a>
                 </div>
               </div>
             </div>
@@ -69,15 +86,28 @@
           <div class="col-lg-4 col-md-6">
             <div class="services-item effect-item">
               <a href="/view2" class="image-effect">
-                <div class="services-photo" style="background-image: url(assets/images/criticaltreatement.JPEG)"></div>
+                <div
+                  class="services-photo"
+                  style="
+                    background-image: url(assets/images/criticaltreatement.JPEG);
+                  "
+                ></div>
               </a>
               <div class="services-text">
                 <h3><a href="/view2">Critical Treatment</a></h3>
                 <p>
-                  Lorem ipsum dolor sit amet, an labores explicari qui, eu nostrum copiosae argum entum has. Latine
-                  propriae quo no unum. </p>
+                  Critical care is medical care for people who have
+                  life-threatening injuries and illnesses. It usually takes
+                  place in an intensive care unit (ICU). A team of
+                  specially-trained health care providers gives you 24-hour
+                  care. This includes using machines to constantly monitor your
+                  vital signs. It also usually involves giving you specialized
+                  treatments.
+                </p>
                 <div class="button-bn">
-                  <a href="/view2">Read More <i class="fa fa-chevron-circle-right"></i></a>
+                  <a href="/view2"
+                    >Read More <i class="fa fa-chevron-circle-right"></i
+                  ></a>
                 </div>
               </div>
             </div>
@@ -85,15 +115,25 @@
           <div class="col-lg-4 col-md-6">
             <div class="services-item effect-item">
               <a href="/view2" class="image-effect">
-                <div class="services-photo" style="background-image: url(assets/images/lab.JPEG)"></div>
+                <div
+                  class="services-photo"
+                  style="background-image: url(assets/images/lab.JPEG)"
+                ></div>
               </a>
               <div class="services-text">
                 <h3><a href="/view2">Modern Laboratory</a></h3>
                 <p>
-                  Lorem ipsum dolor sit amet, an labores explicari qui, eu nostrum copiosae argum entum has. Latine
-                  propriae quo no unum. </p>
+                  We undertake our quest of improving the quality of human life
+                  with enthusiasm and vigor. Our vision for the future is
+                  powered by our business drive. It finds purpose and direction
+                  with our strategic intent. It is guided by our corporate
+                  culture that places people and capabilities as the pivot that
+                  changes and transforms situations.
+                </p>
                 <div class="button-bn">
-                  <a href="/view2">Read More <i class="fa fa-chevron-circle-right"></i></a>
+                  <a href="/view2"
+                    >Read More <i class="fa fa-chevron-circle-right"></i
+                  ></a>
                 </div>
               </div>
             </div>
@@ -101,15 +141,23 @@
           <div class="col-lg-4 col-md-6">
             <div class="services-item effect-item">
               <a href="/view2" class="image-effect">
-                <div class="services-photo" style="background-image: url(assets/images/test.JPEG)"></div>
+                <div
+                  class="services-photo"
+                  style="background-image: url(assets/images/test.JPEG)"
+                ></div>
               </a>
               <div class="services-text">
                 <h3><a href="/view2">All Major Tests</a></h3>
                 <p>
-                  Lorem ipsum dolor sit amet, an labores explicari qui, eu nostrum copiosae argum entum has. Latine
-                  propriae quo no unum. </p>
+                  It has several pharma products that address relevant and
+                  growing therapeutic areas like gastroenterology, diabetology,
+                  psychiatry, neurology, anti-bacterials, anti-infectives,
+                  vitamins and pain management among others.
+                </p>
                 <div class="button-bn">
-                  <a href="/view2">Read More <i class="fa fa-chevron-circle-right"></i></a>
+                  <a href="/view2"
+                    >Read More <i class="fa fa-chevron-circle-right"></i
+                  ></a>
                 </div>
               </div>
             </div>
@@ -117,15 +165,22 @@
           <div class="col-lg-4 col-md-6">
             <div class="services-item effect-item">
               <a href="/view2" class="image-effect">
-                <div class="services-photo" style="background-image: url(assets/images/dental.JPEG)"></div>
+                <div
+                  class="services-photo"
+                  style="background-image: url(assets/images/dental.JPEG)"
+                ></div>
               </a>
               <div class="services-text">
                 <h3><a href="/view2">Dental Care</a></h3>
                 <p>
-                  Lorem ipsum dolor sit amet, an labores explicari qui, eu nostrum copiosae argum entum has. Latine
-                  propriae quo no unum. </p>
+                  Dental care or dentalcare is the maintenance of healthy teeth
+                  and may refer to: Oral hygiene, the practice of keeping the
+                  mouth and teeth clean in order to prevent dental disorders.
+                </p>
                 <div class="button-bn">
-                  <a href="/view2">Read More <i class="fa fa-chevron-circle-right"></i></a>
+                  <a href="/view2"
+                    >Read More <i class="fa fa-chevron-circle-right"></i
+                  ></a>
                 </div>
               </div>
             </div>
@@ -137,7 +192,7 @@
 
     <!--Footer-->
     <%- include('partial/footer.ejs'); %>
-    
+
     <script>
       var i = 0;
       var txt = 'WELCOME TO MEDBUDDY';
@@ -145,7 +200,7 @@
 
       function typeWriter() {
         if (i < txt.length) {
-          document.getElementById("typeit").innerHTML += txt.charAt(i);
+          document.getElementById('typeit').innerHTML += txt.charAt(i);
           i++;
           setTimeout(typeWriter, speed);
         }
